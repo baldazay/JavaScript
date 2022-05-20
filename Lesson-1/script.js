@@ -1,3 +1,5 @@
+"use strict"
+
 //LESSON 1, TASK 1
 
 let tempCel = 25;
