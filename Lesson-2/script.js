@@ -1,5 +1,6 @@
 "use strict"
 
+
 //LESSON 2, TASK 1
 
 var a = 1, b = 1, c, d;
