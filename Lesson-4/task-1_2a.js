@@ -1,3 +1,6 @@
+"use strict"
+
+
 //Part A --- ES5
 
 function Post(author, text, date) {

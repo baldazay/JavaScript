@@ -1,3 +1,6 @@
+"use strict"
+
+
 //ES5
 function Product(name, price) {
     this.name = name;
