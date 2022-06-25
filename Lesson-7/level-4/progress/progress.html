@@ -26,8 +26,8 @@
             div.style.background = `linear-gradient(90deg, rgba(38,255,162,1) ${percent}%, rgba(255,255,255,1) ${percent}%)`;
         }
 
-        for (let i = 0; i <= 100; i++) {
-            setTimeout(changeProgress(i), i * 3000);
+        for (let i = 1; i <= 100; i++) {
+            setTimeout(changeProgress(i), 500 * i);
         }
 
 

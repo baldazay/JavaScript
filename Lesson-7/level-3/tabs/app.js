@@ -21,10 +21,11 @@ links.forEach(() => {
  * Обработчик клика по .nav-link
  * @param {MouseEvent} event 
  */
-function clickHandler(event) {
+function clickHandler(link) {
     // здесь вызывайте changeText и changeActiveClass, и передавайте
     // им объект события.
-
+    changeText();
+    changeActiveClass();
 }
 
 /**
@@ -42,6 +43,9 @@ function changeActiveClass(event) {
  * ставить соответствующий текст из texts.
  * @param {MouseEvent} event 
  */
-function changeText(event) {
+function changeText(link) {
+    let lastSymbol = link.innerHTML[text.length - 1];
+    for (let elem in texts) {
 
+    }
 }

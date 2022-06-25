@@ -24,13 +24,14 @@
 
 
     <script>
-        let fontSize = document.querySelectorAll('input');
+        let input = document.querySelector('input');
         let text = document.querySelector('div');
+        text.style.fontSize = `${input.value}px`;
 
-
-        fontSize.addEventListener('input', function (e) {
-            console.log(e.target.value);
-
+        input.addEventListener('input', (event) => {
+            input.setAttribute('value', event.target.value);
+            console.log(input.value);
+            text.style.fontSize = `${input.value}px`;
         });
 
 
